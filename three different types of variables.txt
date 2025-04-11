@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       
+        Scanner scanner = new Scanner(System.in);
+        
+        
+        int intValue = scanner.nextInt();
+        
+        
+        float floatValue = scanner.nextFloat();
+        
+        
+        scanner.nextLine();
+        String stringValue = scanner.nextLine();
+        
+        
+        System.out.println(intValue + " int");
+        System.out.println(floatValue + " float");
+        System.out.println(stringValue + " string");
+        
+        
+        scanner.close();
+    }
+}
